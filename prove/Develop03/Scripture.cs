@@ -33,7 +33,7 @@ public class Scripture
 
     public bool HideRandomWord()
     {
-        List<Word> unhidden = GetDisplayText();
+        List<Word> unhidden = IsHidden();
         if (unhidden.Count < 2)
             return false;
 
@@ -53,7 +53,7 @@ public class Scripture
         return true;
     }
 
-    private List<Word> GetDisplayText()
+    private List<Word> IsHidden()
     {
         List<Word> visibleWords = new List<Word>();
         foreach (Word word in _words)
