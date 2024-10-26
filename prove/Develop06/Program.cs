@@ -1,3 +1,5 @@
+// To show creativity, I added a part where the program will welcome the user to the game and explain a bit about the game
+
 using System;
 
 class Program
