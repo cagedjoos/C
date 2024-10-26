@@ -1,3 +1,5 @@
+// To exceed the requirements, I made it so that the reflecting activity questions would not repeat themselves until the next question
+
 using System;
 
 class Program
